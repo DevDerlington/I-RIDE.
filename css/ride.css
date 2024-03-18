@@ -1,0 +1,162 @@
+*{
+margin: 0;
+padding:0;
+  box-sizing: border-box;
+}
+
+
+body{
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+}
+
+header{
+background-color: #333;
+  color: #fff;
+  padding:20px;
+  text-align: center;
+}
+
+/* for the passenger section */
+.container{
+max-width: 400px;
+margin:20% auto;
+padding:20px;
+border:1px solid #ccc;
+border-radius: 5px;
+margin-top:50px;
+box-shadow: 0 0 10px rgba (0,0,0, 0.1);
+
+}
+h1{
+  text-align: center;
+}
+
+.form-group{
+font-weight: bold;
+
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="text"]{
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+
+.btn{
+width: 100%;
+padding: 10px;
+margin-top: 10px;
+  border-radius: 5px;
+}
+
+.used-images{
+/* width: 50%; */
+  margin: 100px auto ;
+text-align: left;
+line-height: 2;
+}
+
+p{
+line-height: 2;
+text-align:center;
+align-items: center;
+justify-content: center;
+margin-top: 30%;
+}
+.pre-mag{
+  width: 100%;
+  float: left;
+  margin-right: 10px;
+}
+
+#section2,
+#section3,
+#section4{
+margin: 30% auto;
+
+}
+
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul li {
+display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a{
+color: #fff;
+  text-decoration: none;
+}
+
+main{
+  padding: 20px;
+}
+
+form{
+  margin-bottom: 20px;
+}
+
+form input{
+  width: 100%;
+  padding:10px;
+  margin-bottom: 10px;
+}
+
+form button{
+ width: 100%;
+ padding: 10px;
+ background-color: #333;
+ color: #fff;
+ border: none;
+  cursor: pointer;
+}
+
+#service-selection{
+text-align: center;
+}
+
+#service-selection h2{
+margin-bottom: 20px;
+
+}
+
+#service-selection button{
+padding: 10px 20px;
+margin: 0 10px;
+background-color: #333;
+color: #fff;
+border:none;
+cursor: pointer;
+
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+footer{
+background-color: #333;
+color: #fff;
+padding:20px;
+text-align: center;
+}
+
+footernav ul li {
+display: inline;
+  margin-right: 10px;
+}
+
+footer ul li a {
+color: #fff;
+text-decoration: none;
+}
